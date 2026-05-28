@@ -69,3 +69,12 @@
 
 - type: Tag
   id: MesonGoggles
+
+- type: Tag
+  id: Bola
+
+- type: Tag
+  id: LPPMagazinePistolRifle
+
+- type: Tag
+  id: HierophantClubPiece

@@ -142,7 +142,7 @@
     - id: ClothingNeckGoldmedal
     - id: DoorRemoteService
     - id: HoPIDCard
-    - id: WeaponDisabler
+    - id: WeaponPocketDisabler #LP edit
     - id: ClothingEyesHudCommand
     - id: PlushieLizardJobHeadofpersonnel
       prob: 0.02
@@ -239,6 +239,7 @@
     - id: BoxCMOCircuitboards
     - id: PlushieLizardJobChiefmedicalofficer
       prob: 0.02
+    - id: ClothingBeltMilitaryWebbingCMO #LP edit
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
@@ -334,7 +335,7 @@
   table: !type:AllSelector
     children:
     - id: RedSecurityPlating # LP Edit
-    - id: WeaponEnergyMagnum
+    # - id: WeaponEnergyMagnum #LP Edit
     - id: BookSpaceLaw
     - id: BoxEncryptionKeySecurity
     - id: CigarGoldCase
@@ -361,6 +362,11 @@
     - id: ClothingOuterCoatHoSGreatcoat
     - id: BookBusido
     # Corvax-End
+#LP edit start
+    - id: HeadOfSecurityWeaponUndetermined
+    - id: ClothingOuterArmorHoSHeavy
+    - id: ClothingHeadHelmetHeavyHoS
+#LP edit end
 
 # Hardsuit table, used for suit storage as well
 - type: entityTable
