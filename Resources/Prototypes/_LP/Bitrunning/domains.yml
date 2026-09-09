@@ -4,6 +4,19 @@
 # --- --- ---
 #    ЛЁГКИЕ
 # --- --- ---
+- type: bitrunningVirtualDomain
+  id: LPPFloorItsLava # Паркур
+  name: bitrunning-domain-floor-its-lava-name
+  description: bitrunning-domain-floor-its-lava-desc
+  difficulty: Easy
+  cost: 1
+  serverRewardPoints: 3
+  bitrunningRewardPoints: 580
+  isModular: true
+  mapPath: /Maps/_LP/Bitrun/floor_its_lava.yml
+  objectiveType: CollectEncryptedCaches
+  objectiveTarget: 3
+
 # --- --- ---
 #   СРЕДНИЕ
 # --- --- ---
@@ -14,7 +27,7 @@
   difficulty: Medium
   cost: 2
   serverRewardPoints: 6
-  bitrunningRewardPoints: 425
+  bitrunningRewardPoints: 625
   forcedLoadout: BitrunnerAvatarERTcombat
   isModular: true
   mapPath: /Maps/_LP/Bitrun/ert.yml
@@ -28,10 +41,24 @@
   difficulty: Medium
   cost: 2
   serverRewardPoints: 10
-  bitrunningRewardPoints: 195
+  bitrunningRewardPoints: 695
   forcedLoadout: BitrunnerAvatarUSSP
   isModular: true
   mapPath: /Maps/_LP/Bitrun/ussppunk.yml
+  objectiveType: EliminateEnemies
+  objectiveTarget: 0
+
+- type: bitrunningVirtualDomain
+  id: LPPCounterPunchMirage # Кска, мираж
+  name: bitrunning-domain-counter-punch-mirage-name
+  description: bitrunning-domain-counter-punch-mirage-desc
+  difficulty: Medium
+  cost: 4
+  serverRewardPoints: 8
+  bitrunningRewardPoints: 750
+  forcedLoadout: BitrunnerAvatarCounterTerrorist
+  isModular: true
+  mapPath: /Maps/_LP/Bitrun/counter_punch_series/mirage.yml
   objectiveType: EliminateEnemies
   objectiveTarget: 0
 
@@ -85,6 +112,22 @@
   objectiveTargetByType:
     DeliveryCacheCrate: 3
     EliminateEnemies: 0
+
+- type: bitrunningVirtualDomain
+  id: LPPRobust # Зачистка дорм
+  name: bitrunning-domain-robust-name
+  description: bitrunning-domain-robust-desc
+  difficulty: Hard
+  cost: 8
+  serverRewardPoints: 10
+  bitrunningRewardPoints: 1800
+  completionLoot:
+    DrinkColaCan: 3
+  forcedLoadout: LimitedPassengerGear
+  isModular: true
+  mapPath: /Maps/_LP/Bitrun/robust.yml
+  objectiveType: EliminateEnemies
+  objectiveTarget: 0
 
 # --- --- ---
 #  ЭКСТРИМ 🗣️ Видны лишь после емага консоли

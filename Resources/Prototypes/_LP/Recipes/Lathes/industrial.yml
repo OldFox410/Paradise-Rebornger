@@ -26,3 +26,8 @@
   parent: [ BaseCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
   id: LPPBluespaceMinerMachineCircuitboard
   result: LPPBluespaceMinerMachineCircuitboard
+
+- type: latheRecipe
+  parent: [ BaseCircuitboardRecipe, BaseResearchMachineRecipeCategory ]
+  id: LPPBluespaceCryptorMachineCircuitboard
+  result: LPPBluespaceCryptorMachineCircuitboard
